@@ -4,16 +4,29 @@
 
 ### Realized by Christian
 
+**En esta actividad veremos algunas particularidades de GitHub, como son el uso del lenguaje Markdown para el archivo README y el servicio GitHub Pages, que nos permite publicar una web estática que está vinculada automáticamente con nuestro repositorio y refleja instantáneamente los cambios que vayamos haciendo.**
+
 [title](https://www.example.com)
 ![imagen_GitHub](/images/logoGitHub.jpg)
 
-'''
-
-<ul>
-
-<li>Ejemplo 1</li>
-<li>Ejemplo 2</li>
-<li>Ejemplo 3</li>
-
-</ul>
-'''
+```
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Módulos de Desarrollo de Aplicaciones Web</h1>
+    <ul>
+      <li>Despliegue de Aplicaciones Web</li>
+      <li>Introduccion a la Nube</li>
+      <li>Desarrollo en entorno de Servidor</li>
+      <li>Digitalizacion</li>
+      <li>Desarrollo en entorno de cliente</li>
+      <li>Sostenibilidad</li>
+    </ul>
+  </body>
+</html>
+```
