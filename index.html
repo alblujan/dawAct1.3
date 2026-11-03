@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <h1>Módulos de Desarrollo de Aplicaciones Web</h1>
@@ -15,5 +16,19 @@
       <li>Desarrollo en entorno de cliente</li>
       <li>Sostenibilidad</li>
     </ul>
+    <img
+      id="imagen"
+      src="images/logoGitHub.jpg"
+      alt="Imagen de GitHub"
+      height="100px"
+      width="100px"
+    />
+    <script>
+      const imagen = document
+        .getElementById("imagen")
+        .addEventListener("click", () => {
+          window.open("https://github.com");
+        });
+    </script>
   </body>
 </html>
